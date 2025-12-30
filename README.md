@@ -1,1 +1,2 @@
+# README
 Website for Spyra :)
