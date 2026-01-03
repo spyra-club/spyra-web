@@ -1,12 +1,24 @@
 * {
   font-family: "Iosevka";
   font-size: 24px;
-}
-#logo{
-    margin:auto;
-    width:40%;
-    text-align:center;
-    border:3 px red;
-    padding:5 px
+  /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cf/Binary_Code.jpg"); */
 }
 
+#body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cf/Binary_Code.jpg");
+  background-repeat: repeat;
+}
+
+#logo {
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  border: 3 px red;
+  padding: 5 px;
+  color: white;
+}
+
+#paragraph {
+  background-color: white;
+  margin: 8rem;
+}
