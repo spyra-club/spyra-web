@@ -1,6 +1,5 @@
 * {
   font-family: "Iosevka";
-  font-size: 24px;
   /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cf/Binary_Code.jpg"); */
 }
 
@@ -16,9 +15,12 @@
   border: 3 px red;
   padding: 5 px;
   color: white;
+  font-size: 30px;
 }
 
 #paragraph {
   background-color: white;
   margin: 8rem;
+  font-family: monospace;
+  font-size: 24px;
 }
