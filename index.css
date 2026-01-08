@@ -4,21 +4,22 @@
 /* } */
 
 #body {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cf/Binary_Code.jpg");
-  background-repeat: repeat;
+  /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cf/Binary_Code.jpg"); */
+  /* background-repeat: repeat; */
+  background-color: lightcoral;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #logo {
-  margin: auto;
-  width: 40%;
-  text-align: center;
-  border: 3 px red;
-  padding: 5 px;
+  width: 100%;
   color: white;
-  font-size: 50px;
+  font-size: 10rem;
   text-shadow: 10px 4px 1px black, 12px 7px 1px;
   font-family: "Pixelify Sans";
   font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 #paragraph {
@@ -50,4 +51,84 @@
 #url:hover {
   color: lightgreen;
   text-decoration-color: lightgreen;
+}
+
+@keyframes animtest {
+  0% {
+    /* left: 0px; */
+    /* top: 0px; */
+    color: red;
+  }
+
+  25% {
+    /* left: 0px; */
+    /* top: 0px; */
+    color: green;
+  }
+
+  50% {
+    /* left: 500px; */
+    /* top: 500px; */
+    color: yellow;
+  }
+
+  75% {
+    /* left: 0px; */
+    /* top: 0px; */
+    color: blue;
+  }
+
+  100% {
+    /* left: 0px; */
+    /* top: 0px; */
+    color: red;
+  }
+
+}
+
+#greeting {
+  animation-name: animtest;
+  animation-duration: 6.148s;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+  animation-timing-function: linear;
+}
+
+@keyframes translateAnim {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-20%);
+  }
+
+}
+
+#wrapper {
+  display: inline-flex;
+}
+
+#test {
+  font-size: 5rem;
+  white-space: nowrap;
+  overflow: hidden;
+
+
+}
+
+#wrapper {
+  animation-name: translateAnim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  /* animation-timing-function: linear(0.75, 1, 0.75 50%, 1); */
+  animation-timing-function: linear;
+  /* animation-direction: alternate; */
+}
+
+.content {
+  display: inline-block;
+  font-weight: 700;
+  padding-right: 2rem;
 }
