@@ -19,8 +19,31 @@
 }
 
 #paragraph {
-  background-color: white;
+  background-color: black;
+  color: white;
   margin: 8rem;
   font-family: monospace;
   font-size: 24px;
+  /* filter: invert(); */
+  border: solid 2px lawngreen;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+#url {
+  text-decoration-color: lawngreen;
+}
+
+#url:link {
+  color: lawngreen;
+}
+
+#url:visited {
+  color: green;
+  text-decoration-color: green;
+}
+
+#url:hover {
+  color: lightgreen;
+  text-decoration-color: lightgreen;
 }
